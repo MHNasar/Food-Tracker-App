@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Tracker Dashboard</title>
+  <link rel="stylesheet" href="webstyle.css">
+  <!-- Include Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div id="dashboard">
+    <header>
+      <img src="Logo.png" alt="App Logo" id="logo">
+      <img src="name.png" alt="Name Image" id="nameImage">
+      <div id="current-date-time"></div>
+      <div id="about-link">
+      <a href="about.html">About</a>
+    </header>
+    <aside id="sidebar">
+      <ul>
+        <li><button onclick="showChart()">Chart</button></li>
+        <li><button onclick="showToday()">Today</button></li>
+        <li><button onclick="showFoodList()">Food List</button></li>
+        
+      </ul>
+    </aside>
+    <main id="content">
+      <canvas id="chartCanvas" width="40" height="40"></canvas>
+    </main>
+    <footer>
+      © All rights reserved, 2023
+    </footer>
+  </div>
+  <script src="Myscript.js"></script>
+</body>
+</html>
