@@ -1,1 +1,2 @@
 # Food-Tracker-App
+The Food Tracker App is a modern web application built using HTML, CSS, and JavaScript. It provides users with a seamless interface to track their daily food intake, focusing on macronutrients like protein, carbohydrates, and fats. Developed with a user-centric approach, this app aims to simplify nutritional monitoring for fitness enthusiasts and individuals conscious about their diet.
